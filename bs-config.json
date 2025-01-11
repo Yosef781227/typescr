@@ -1,11 +1,11 @@
 {
   "server": {
-    "baseDir": "./",
-    "index": "index.html"
+    "baseDir": "./",               
+    "index": "index.html"          
   },
-  "files": ["./**/*.{html,htm,css,js}"],
+  "files": ["./src/**/*", "./index.html", "./style.css"], 
   "watchOptions": {
-    "ignored": "node_modules"
+    "ignored": "node_modules"     
   },
-  "injectChanges": false
+  "port": 3000                     
 }
