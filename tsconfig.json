@@ -1,13 +1,13 @@
 {
   "compilerOptions": {
-    "target": "ES6",               // Use ES6 features like `let`, `const`, and arrow functions
-    "module": "ES6",               // Use ES6 module syntax (import/export)
-    "moduleResolution": "node",    // Resolve modules using Node.js resolution strategy
-    "strict": true,                // Enable all strict type-checking options
-    "outDir": "./dist",            // Output compiled files to the 'dist' folder
-    "rootDir": "./src",            // Specify the root directory of input files
-    "esModuleInterop": true,       // Allow CommonJS and ES module interop
-    "forceConsistentCasingInFileNames": true // Ensure consistent casing in module imports
+    "target": "ES6",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "strict": true,
+    "outDir": "./dist",
+    "rootDir": "./src",
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true
   },
-  "include": ["src/**/*"]           // Include all TypeScript files in the 'src' folder
+  "include": ["src/**/*"]
 }
